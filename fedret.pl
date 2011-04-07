@@ -91,6 +91,7 @@ OPTIONAL
     -d|--templatedir DIR            Load the TEMPLATE from DIR
     -m|--mock BR[ BR2[ ...]]        Build in mock buildroots BR, BR2, ...
     -k|--koji BR[ BR2[ ...]]        Build in koji buildroots BR, BR2, ...
+    -o|--output FILE                File to write the review output to
     EOF
     return 1;
 }
